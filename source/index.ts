@@ -64,21 +64,24 @@ export function useMetaKey(): boolean {
 }
 
 /**
- * Create a state that reflects the status of the escape key.
- * @returns `true` if the escape key is active, `false` if the escape key is not active.
+ * Create an effect for when a key is pressed
+ * @param callback The callback that is fired when a key is pressed
  */
-export function useEscapeKey(): boolean {
-	const [active, setActive] = useState(false)
-	function onMetaKey(e: KeyboardEvent) {
-		setActive(e.keyCode === 27)
-	}
+export function useKeyPress(callback: (e: KeyboardEvent) => any) {
 	useEffect(function() {
-		document.addEventListener('keydown', onMetaKey)
-		document.addEventListener('keyup', onMetaKey)
+		document.addEventListener('keypress', callback)
 		return function() {
-			document.removeEventListener('keydown', onMetaKey)
-			document.removeEventListener('keyup', onMetaKey)
+			document.removeEventListener('keypress', callback)
 		}
 	})
-	return active
+}
+
+/**
+ * Create an effect for when the escape key is pressed
+ * @param callback The callback that is fired when the escape key is pressed
+ */
+export function useEscapeKey(callback: (e: KeyboardEvent) => any) {
+	useKeyPress(function(e) {
+		if (e.keyCode === 27) callback(e)
+	})
 }
