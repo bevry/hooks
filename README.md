@@ -7,7 +7,7 @@
 
 <!-- BADGES/ -->
 
-<span class="badge-travisci"><a href="http://travis-ci.com/bevry/hooks" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/com/bevry/hooks/master.svg" alt="Travis CI Build Status" /></a></span>
+<span class="badge-travisci"><a href="http://travis-ci.org/bevry/hooks" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/bevry/hooks/master.svg" alt="Travis CI Build Status" /></a></span>
 <span class="badge-npmversion"><a href="https://npmjs.org/package/@bevry/hooks" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@bevry/hooks.svg" alt="NPM version" /></a></span>
 <span class="badge-npmdownloads"><a href="https://npmjs.org/package/@bevry/hooks" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@bevry/hooks.svg" alt="NPM downloads" /></a></span>
 <span class="badge-daviddm"><a href="https://david-dm.org/bevry/hooks" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/bevry/hooks.svg" alt="Dependency Status" /></a></span>
@@ -113,7 +113,9 @@ No sponsors yet! Will you be the first?
 
 <h3>Contributors</h3>
 
-No contributors yet! Will you be the first?
+These amazing people have contributed code to this project:
+
+<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/hooks/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/hooks">view contributions</a></li></ul>
 
 <a href="https://github.com/bevry/hooks/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 

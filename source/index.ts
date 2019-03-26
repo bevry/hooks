@@ -62,3 +62,23 @@ export function useMetaKey(): boolean {
 	})
 	return active
 }
+
+/**
+ * Create a state that reflects the status of the escape key.
+ * @returns `true` if the escape key is active, `false` if the escape key is not active.
+ */
+export function useEscapeKey(): boolean {
+	const [active, setActive] = useState(false)
+	function onMetaKey(e: KeyboardEvent) {
+		setActive(e.keyCode === 27)
+	}
+	useEffect(function() {
+		document.addEventListener('keydown', onMetaKey)
+		document.addEventListener('keyup', onMetaKey)
+		return function() {
+			document.removeEventListener('keydown', onMetaKey)
+			document.removeEventListener('keyup', onMetaKey)
+		}
+	})
+	return active
+}
