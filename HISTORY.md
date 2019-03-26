@@ -1,5 +1,10 @@
 # History
 
+## v1.2.0 20129 March 26
+
+-   Added `useKeyPress` which uses effects
+-   Changed `useEscapeKey` to be an effect instead of a state
+
 ## v1.1.0 20129 March 26
 
 -   Add `useEscapeKey`
