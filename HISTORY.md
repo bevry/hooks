@@ -1,11 +1,16 @@
 # History
 
-## v1.2.0 20129 March 26
+## v2.0.0 2019 March 27
+
+-   Added `useKey` which uses effects
+-   Changed `useMetaKey` to be an effect instead of a state
+
+## v1.2.0 2019 March 26
 
 -   Added `useKeyPress` which uses effects
 -   Changed `useEscapeKey` to be an effect instead of a state
 
-## v1.1.0 20129 March 26
+## v1.1.0 2019 March 26
 
 -   Add `useEscapeKey`
 
