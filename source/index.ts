@@ -44,28 +44,33 @@ export function useInterval(
 }
 
 /**
- * Create a state that reflects the status of meta keys.
- * @returns `true` if a meta key is active, `false` if a meta key is not active.
+ * Create an effect for the keydown and keyup events.
+ * @param callback The callback that is fired when a key is pressed
  */
-export function useMetaKey(): boolean {
-	const [active, setActive] = useState(false)
-	function onMetaKey(e: KeyboardEvent) {
-		setActive(e.shiftKey || e.metaKey || e.altKey || e.ctrlKey)
-	}
+export function useKey(callback: (e: KeyboardEvent) => any) {
 	useEffect(function() {
-		document.addEventListener('keydown', onMetaKey)
-		document.addEventListener('keyup', onMetaKey)
+		document.addEventListener('keydown', callback)
+		document.addEventListener('keyup', callback)
 		return function() {
-			document.removeEventListener('keydown', onMetaKey)
-			document.removeEventListener('keyup', onMetaKey)
+			document.removeEventListener('keydown', callback)
+			document.removeEventListener('keyup', callback)
 		}
 	})
-	return active
 }
 
 /**
- * Create an effect for when a key is pressed
- * @param callback The callback that is fired when a key is pressed
+ * Create a state that reflects the status of meta keys.
+ * @param callback The callback that is fired when the state of a meta key changes.
+ */
+export function useMetaKey(callback: (active: boolean) => any) {
+	useKey(function(e: KeyboardEvent) {
+		callback(e.shiftKey || e.metaKey || e.altKey || e.ctrlKey)
+	})
+}
+
+/**
+ * Create an effect for when a key is pressed.
+ * @param callback The callback that is fired when a key is pressed.
  */
 export function useKeyPress(callback: (e: KeyboardEvent) => any) {
 	useEffect(function() {
@@ -77,8 +82,8 @@ export function useKeyPress(callback: (e: KeyboardEvent) => any) {
 }
 
 /**
- * Create an effect for when the escape key is pressed
- * @param callback The callback that is fired when the escape key is pressed
+ * Create an effect for when the escape key is pressed.
+ * @param callback The callback that is fired when the escape key is pressed.
  */
 export function useEscapeKey(callback: (e: KeyboardEvent) => any) {
 	useKeyPress(function(e) {
