@@ -1,5 +1,9 @@
 # History
 
+## v2.0.1 2019 September 10
+
+-   Updated [base files](https://github.com/bevry/base) and [editions](https://editions.bevry.me) using [boundation](https://github.com/bevry/boundation)
+
 ## v2.0.0 2019 March 27
 
 -   Added `useKey` which uses effects
