@@ -56,8 +56,8 @@ Aggregation of react hooks that we use. Such as useInterval, useMetaKey.
 
 <ul><li><code>@bevry/hooks/source/index.ts</code> is typescript source code with import for modules</li>
 <li><code>@bevry/hooks/edition-browsers/index.js</code> is typescript compiled for browsers with import for modules</li>
-<li><code>@bevry/hooks</code> aliases <code>@bevry/hooks/edition-node-13/index.js</code></li>
-<li><code>@bevry/hooks/edition-node-13/index.js</code> is typescript compiled for node.js 13 with require for modules</li></ul>
+<li><code>@bevry/hooks</code> aliases <code>@bevry/hooks/edition-node-12/index.js</code></li>
+<li><code>@bevry/hooks/edition-node-12/index.js</code> is typescript compiled for node.js 12 with require for modules</li></ul>
 
 <!-- /INSTALL -->
 
@@ -111,7 +111,8 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/hooks/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/hooks">view contributions</a></li></ul>
+<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/hooks/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/hooks">view contributions</a></li>
+<li><a href="http://github.com/apps/dependabot-preview">dependabot-preview[bot]</a> — <a href="https://github.com/bevry/hooks/commits?author=dependabot-preview[bot]" title="View the GitHub contributions of dependabot-preview[bot] on repository bevry/hooks">view contributions</a></li></ul>
 
 <a href="https://github.com/bevry/hooks/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
