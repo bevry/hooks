@@ -20,12 +20,12 @@ export function useInterval(
 	// make the state reflect the iterations
 	const [iterations, setIterations] = useState(0)
 	// timers are side effects
-	useEffect(function() {
+	useEffect(function () {
 		if (Array.isArray(interval)) {
 			// don't emit unexpected behaviour if nothing was provided
 			if (interval.length === 0) return
 			// fetch the smallest valid value
-			interval = interval.filter(ms => ms >= 0).sort()[0]
+			interval = interval.filter((ms) => ms >= 0).sort()[0]
 		}
 		// if the value is negative, no need for an interval
 		if (interval < 0) return
@@ -48,10 +48,10 @@ export function useInterval(
  * @param callback The callback that is fired when a key is pressed
  */
 export function useKey(callback: (e: KeyboardEvent) => any) {
-	useEffect(function() {
+	useEffect(function () {
 		document.addEventListener('keydown', callback)
 		document.addEventListener('keyup', callback)
-		return function() {
+		return function () {
 			document.removeEventListener('keydown', callback)
 			document.removeEventListener('keyup', callback)
 		}
@@ -63,7 +63,7 @@ export function useKey(callback: (e: KeyboardEvent) => any) {
  * @param callback The callback that is fired when the state of a meta key changes.
  */
 export function useMetaKey(callback: (active: boolean) => any) {
-	useKey(function(e: KeyboardEvent) {
+	useKey(function (e: KeyboardEvent) {
 		callback(e.shiftKey || e.metaKey || e.altKey || e.ctrlKey)
 	})
 }
@@ -73,9 +73,9 @@ export function useMetaKey(callback: (active: boolean) => any) {
  * @param callback The callback that is fired when a key is pressed.
  */
 export function useKeyPress(callback: (e: KeyboardEvent) => any) {
-	useEffect(function() {
+	useEffect(function () {
 		document.addEventListener('keypress', callback)
-		return function() {
+		return function () {
 			document.removeEventListener('keypress', callback)
 		}
 	})
@@ -86,7 +86,7 @@ export function useKeyPress(callback: (e: KeyboardEvent) => any) {
  * @param callback The callback that is fired when the escape key is pressed.
  */
 export function useEscapeKey(callback: (e: KeyboardEvent) => any) {
-	useKeyPress(function(e) {
+	useKeyPress(function (e) {
 		if (e.keyCode === 27) callback(e)
 	})
 }

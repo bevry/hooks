@@ -33,6 +33,10 @@ Aggregation of react hooks that we use. Such as useInterval, useMetaKey.
 <!-- /DESCRIPTION -->
 
 
+## Usage
+
+[Complete API Documentation.](http://master.hooks.bevry.surge.sh/docs/globals.html)
+
 <!-- INSTALL/ -->
 
 <h2>Install</h2>
@@ -40,14 +44,31 @@ Aggregation of react hooks that we use. Such as useInterval, useMetaKey.
 <a href="https://npmjs.com" title="npm is a package manager for javascript"><h3>npm</h3></a>
 <ul>
 <li>Install: <code>npm install --save @bevry/hooks</code></li>
-<li>Require: <code>require('@bevry/hooks')</code></li>
+<li>Import: <code>import * as pkg from ('@bevry/hooks')</code></li>
+<li>Require: <code>const pkg = require('@bevry/hooks')</code></li>
 </ul>
+
+<a href="https://www.pika.dev/cdn" title="100% Native ES Modules CDN"><h3>pika</h3></a>
+
+``` html
+<script type="module">
+    import * as pkg from '//cdn.pika.dev/@bevry/hooks/^3.0.0'
+</script>
+```
+
+<a href="https://unpkg.com" title="unpkg is a fast, global content delivery network for everything on npm"><h3>unpkg</h3></a>
+
+``` html
+<script type="module">
+    import * as pkg from '//unpkg.com/@bevry/hooks@^3.0.0'
+</script>
+```
 
 <a href="https://jspm.io" title="Native ES Modules CDN"><h3>jspm</h3></a>
 
 ``` html
 <script type="module">
-    import * as pkg from '//dev.jspm.io/@bevry/hooks'
+    import * as pkg from '//dev.jspm.io/@bevry/hooks@3.0.0'
 </script>
 ```
 
@@ -55,17 +76,13 @@ Aggregation of react hooks that we use. Such as useInterval, useMetaKey.
 
 <p>This package is published with the following editions:</p>
 
-<ul><li><code>@bevry/hooks/source/index.ts</code> is typescript source code with import for modules</li>
-<li><code>@bevry/hooks/edition-browsers/index.js</code> is typescript compiled for browsers with import for modules</li>
-<li><code>@bevry/hooks</code> aliases <code>@bevry/hooks/edition-node-12/index.js</code></li>
-<li><code>@bevry/hooks/edition-node-12/index.js</code> is typescript compiled for node.js 12 with require for modules</li></ul>
+<ul><li><code>@bevry/hooks/source/index.ts</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> source code with <a href="https://babeljs.io/docs/learn-es2015/#modules" title="ECMAScript Modules">Import</a> for modules</li>
+<li><code>@bevry/hooks</code> aliases <code>@bevry/hooks/edition-esnext/index.js</code></li>
+<li><code>@bevry/hooks/edition-esnext/index.js</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> compiled against <a href="https://en.wikipedia.org/wiki/ECMAScript#ES.Next" title="ECMAScript Next">ESNext</a> for <a href="https://nodejs.org" title="Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine">Node.js</a> with <a href="https://nodejs.org/dist/latest-v5.x/docs/api/modules.html" title="Node/CJS Modules">Require</a> for modules</li>
+<li><code>@bevry/hooks/edition-browsers/index.js</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> compiled against <a href="https://en.wikipedia.org/wiki/ECMAScript#10th_Edition_-_ECMAScript_2019" title="ECMAScript ES2019">ES2019</a> for web browsers with <a href="https://babeljs.io/docs/learn-es2015/#modules" title="ECMAScript Modules">Import</a> for modules</li></ul>
 
 <!-- /INSTALL -->
 
-
-## Usage
-
-[API Documentation.](http://master.hooks.bevry.surge.sh/docs/)
 
 <!-- HISTORY/ -->
 
@@ -113,7 +130,8 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/hooks/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/hooks">view contributions</a></li>
+<ul><li>Benjamin Lupton</li>
+<li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/hooks/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/hooks">view contributions</a></li>
 <li><a href="http://github.com/apps/dependabot-preview">dependabot-preview[bot]</a> — <a href="https://github.com/bevry/hooks/commits?author=dependabot-preview[bot]" title="View the GitHub contributions of dependabot-preview[bot] on repository bevry/hooks">view contributions</a></li></ul>
 
 <a href="https://github.com/bevry/hooks/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
