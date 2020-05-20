@@ -52,7 +52,7 @@ Aggregation of react hooks that we use. Such as useInterval, useMetaKey.
 
 ``` html
 <script type="module">
-    import * as pkg from '//cdn.pika.dev/@bevry/hooks/^3.0.0'
+    import * as pkg from '//cdn.pika.dev/@bevry/hooks/^3.1.0'
 </script>
 ```
 
@@ -60,7 +60,7 @@ Aggregation of react hooks that we use. Such as useInterval, useMetaKey.
 
 ``` html
 <script type="module">
-    import * as pkg from '//unpkg.com/@bevry/hooks@^3.0.0'
+    import * as pkg from '//unpkg.com/@bevry/hooks@^3.1.0'
 </script>
 ```
 
@@ -68,7 +68,7 @@ Aggregation of react hooks that we use. Such as useInterval, useMetaKey.
 
 ``` html
 <script type="module">
-    import * as pkg from '//dev.jspm.io/@bevry/hooks@3.0.0'
+    import * as pkg from '//dev.jspm.io/@bevry/hooks@3.1.0'
 </script>
 ```
 
@@ -130,9 +130,8 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-<ul><li>Benjamin Lupton</li>
-<li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/hooks/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/hooks">view contributions</a></li>
-<li><a href="http://github.com/apps/dependabot-preview">dependabot-preview[bot]</a> — <a href="https://github.com/bevry/hooks/commits?author=dependabot-preview[bot]" title="View the GitHub contributions of dependabot-preview[bot] on repository bevry/hooks">view contributions</a></li></ul>
+<ul><li><a href="https://github.com/balupton">Benjamin Lupton</a> — <a href="https://github.com/bevry/hooks/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/hooks">view contributions</a></li>
+<li>Benjamin Lupton</li></ul>
 
 <a href="https://github.com/bevry/hooks/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
