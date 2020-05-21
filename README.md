@@ -52,7 +52,7 @@ Aggregation of react hooks that we use. Such as useInterval, useMetaKey.
 
 ``` html
 <script type="module">
-    import * as pkg from '//cdn.pika.dev/@bevry/hooks/^3.1.0'
+    import * as pkg from '//cdn.pika.dev/@bevry/hooks/^3.2.0'
 </script>
 ```
 
@@ -60,7 +60,7 @@ Aggregation of react hooks that we use. Such as useInterval, useMetaKey.
 
 ``` html
 <script type="module">
-    import * as pkg from '//unpkg.com/@bevry/hooks@^3.1.0'
+    import * as pkg from '//unpkg.com/@bevry/hooks@^3.2.0'
 </script>
 ```
 
@@ -68,7 +68,7 @@ Aggregation of react hooks that we use. Such as useInterval, useMetaKey.
 
 ``` html
 <script type="module">
-    import * as pkg from '//dev.jspm.io/@bevry/hooks@3.1.0'
+    import * as pkg from '//dev.jspm.io/@bevry/hooks@3.2.0'
 </script>
 ```
 
@@ -110,7 +110,7 @@ Aggregation of react hooks that we use. Such as useInterval, useMetaKey.
 
 These amazing people are maintaining this project:
 
-<ul><li>Benjamin Lupton</li></ul>
+<ul><li><a href="https://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/hooks/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/hooks">view contributions</a></li></ul>
 
 <h3>Sponsors</h3>
 
@@ -130,8 +130,7 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-<ul><li><a href="https://github.com/balupton">Benjamin Lupton</a> — <a href="https://github.com/bevry/hooks/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/hooks">view contributions</a></li>
-<li>Benjamin Lupton</li></ul>
+<ul><li><a href="https://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/hooks/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/hooks">view contributions</a></li></ul>
 
 <a href="https://github.com/bevry/hooks/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
@@ -144,7 +143,7 @@ These amazing people have contributed code to this project:
 
 Unless stated otherwise all works are:
 
-<ul><li>Copyright &copy; 2019+ Benjamin Lupton</li></ul>
+<ul><li>Copyright &copy; 2019+ <a href="https://balupton.com">Benjamin Lupton</a></li></ul>
 
 and licensed under:
 
