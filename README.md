@@ -52,7 +52,7 @@ Aggregation of react hooks that we use. Such as useInterval, useMetaKey.
 
 ``` html
 <script type="module">
-    import * as pkg from '//cdn.pika.dev/@bevry/hooks/^3.6.0'
+    import * as pkg from '//cdn.pika.dev/@bevry/hooks/^3.7.0'
 </script>
 ```
 
@@ -60,7 +60,7 @@ Aggregation of react hooks that we use. Such as useInterval, useMetaKey.
 
 ``` html
 <script type="module">
-    import * as pkg from '//unpkg.com/@bevry/hooks@^3.6.0'
+    import * as pkg from '//unpkg.com/@bevry/hooks@^3.7.0'
 </script>
 ```
 
@@ -68,7 +68,7 @@ Aggregation of react hooks that we use. Such as useInterval, useMetaKey.
 
 ``` html
 <script type="module">
-    import * as pkg from '//dev.jspm.io/@bevry/hooks@3.6.0'
+    import * as pkg from '//dev.jspm.io/@bevry/hooks@3.7.0'
 </script>
 ```
 
