@@ -4,8 +4,8 @@ language: node_js
 node_js:
   - '10'
   - '12'
-  - '13'
   - '14'
+  - '15'
 matrix:
   fast_finish: true
   allow_failures: []
@@ -28,4 +28,4 @@ after_success:
 notifications:
   email:
     recipients: >-
-      WJKeP9LGXNeZBKhJlIYislW+8FYQJrx3VXsVOP7PCQbCuGpR6XttitrjPQtaHTJ/wV+vI4n5lzxLzrYD6/UZ4FrGKHM84JPs8hmh31mqh8QP4vnuppCLveP7OAJsOygj8BaFYGW6oMoiQa+PVYo81nkJIrsFnDPgIw6NTFo9DnHxql6hyoZTbJn1b9ff304tI5joqPIxgmLXEvHGEPWjptSMT9eYlSljYxKLPde7N68+MJm54/D2kkA8AXeEvGoay3jHAqWOckn0xcqlJWhUZDo4joEMz9AsqPEiqmrUWTmSibClPszXtm9aD9rdfgr5tBJlaHr/0FYNof8LQ8B0hjb4LrZsG+2IuFYAH6e+oPMrdKW7f5dQlhiTI4nd9tI2cM+ORugduUyZMwtFiPIcfvbZZtqfRELFS1tEqXPzvhaPV7YQTObCHD12yH8v1w0jDdCq+WQzcDxpQSgoyvk3v9kLpR7cbMYirnJhks7Eb7zZ8uamQGDgUNl8bBtgq3utXFqFiYvLoRht1NzQRWWYwMGN1HezCxKpymYf81am6Ziu5dkK473FMQ3i/lqxX+nKfd9CP4kdmx6gipP4Xzx0KGITCd0QWCIX0e4UhDmzMk/fbUXL+e1mng9nuQcSFVxRkhIYdCaUn65Rjsy+BWsRfdY1Dmvrkc1jcWJcGwhmfuA=
+      a4orH0M5a59OFt24Zy4Q6VPGH1XBwTb0muLXaE2wQ0uYV83PwaQm5LI3+R5hi6U3cD+Zz1JlL39akCo/QO5dz0zbn3PDSYkL/GDIxaji1ezkgjeYe6I3MoG/EafBCjeWA81+eax5e+a/YNh9Z4GzAfXprka/mcDUwSpqXG3nhmZRW2su1DCuVmNZamKtcPOAjdAaJM2oy2puXh6q85hpylULraxaUaKb/CD6W+m6oT3jbFfBAwBv5ioh48Dabd+b7eeXJI86/n3Rn9BMq4anbT5OqWUaw2FligixTWS1izCVxkUAl+lub/rp9nOC5bbx0yKs6zXlpkkZHHtY6xwrPFB+xMtGy2goHaooE333C1VbwG0YgEMHn4GecqgomcKg3uEb2QdMLxtPzun6e+t0Dfc8VNTgyqtYkb4UUQ3jiyTA6H190yNZ6djEswZBRVDdNG/HsX/Iik03aop7RNCI5BFt9/4xG54X+H3/xX0CPkxg+PLYE/J7l8RrbCr1jexQYwgoeEE3uTzDyHKffUMEsKA0U8UV2s4+ToIRBPjLPi66U6F7kJWuZ/N1KDIegZLWoZVxp4vI/xazlw+t2lU1HDdtw8lwGj5a7MAqSK+rzVjpsGNdho281muMsVEMPwCPyVx8XmZnUAar8UMnlO1RsirPJrII0MxoGo4W07MhWAA=
