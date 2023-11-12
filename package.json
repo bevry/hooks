@@ -157,7 +157,7 @@
     "@bevry/update-contributors": "^1.19.0",
     "@typescript-eslint/eslint-plugin": "^4.28.5",
     "@typescript-eslint/parser": "^4.28.5",
-    "assert-helpers": "^8.4.0",
+    "assert-helpers": "^10.0.0",
     "eslint": "^7.31.0",
     "eslint-config-bevry": "^3.27.0",
     "eslint-config-prettier": "^8.3.0",
