@@ -15,7 +15,7 @@ import { useState, useEffect } from 'react'
  */
 export function useInterval(
 	interval: number | number[],
-	threshold: number = 0
+	threshold: number = 0,
 ): number {
 	// make the state reflect the iterations
 	const [iterations, setIterations] = useState(0)
